@@ -66,6 +66,24 @@ p {
     line-height: 1.4;
 }
 
+.topOfHomePage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.topNavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.firstImageHome{
+display: block;
+margin: 45%;
+padding: 45%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
