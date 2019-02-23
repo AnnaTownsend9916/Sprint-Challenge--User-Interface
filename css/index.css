@@ -65,24 +65,35 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
-.topOfHomePage{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+header{
+    max-width: 800px;
+     margin: 0 auto; 
 }
 
 
+.topOfHomePage{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 4%;
+    align-items: baseline;
+}
+
+.logo-img {
+width: 30%;
+}
 .topNavBar{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    /* flex-direction: row;*/
+    justify-content: space-around;
+    width: 40%;
+
 }
 
 .firstImageHome{
 display: block;
 margin: 45%;
-padding: 45%;
+padding: 35%;
 }
 .container {
     width: 800px;
@@ -95,6 +106,7 @@ padding: 45%;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding: 3%;
 }
 
 .top-content .text-container {
@@ -161,4 +173,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.topOfAboutPage{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 4%;
+    align-items: baseline;
+}
+
+    .topAboutPageContent{
+padding-top: 35px;
+    }
+
+.topNavAbout{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.mid-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+padding-top: 30px;
+}
+
+.strategySection{
+    width: 45%;
+    /* padding: 25px; */
+}
+
+.howWeWorkSection{
+    width: 45%;
+    /* padding: 25px; */
+}
+
+.lower-sec{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.placesWeWorkSection{
+width:45%;
+padding: 25px;
+}
+.collaborationSection{
+    width: 45%;
+    padding: 25px;
 }
